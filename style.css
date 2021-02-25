@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.child {
+  width: 500px;
+  height: 300px;
+  margin-top: 7rem;
+  border: 2px solid #008000;
+  border-radius: 12px;
+  background-color: white;
+}
+
+h2 {
+  text-align: center;
+  color: #008000;
+  margin-top: 3rem;
+}
+
+#joke {
+  font-size: 24px;
+  text-align: center;
+  margin: 2rem;
+  color: green;
+}
+
+#btnClick {
+  margin: 0 auto;
+  display: block;
+  width: 100px;
+  height: 30px;
+  border-radius: 12px;
+  outline: none;
+  border-style: none;
+  color: white;
+  background-color: #008000;
+}
+
+@media (max-width: 768px) {
+  .child {
+    height: auto;
+    padding: 20px;
+    margin: 50px;
+  }
+}
